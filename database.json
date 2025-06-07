@@ -1,0 +1,205 @@
+{
+
+    "ligas": [
+        {
+            "id": "bra-a",
+            "nome": "Brasil - Série A",
+            "pais": "Brasil",
+            "reputacao_continental": 5,
+            "maior_campeao": "Palmeiras",
+            "artilheiro_historico": "Roberto Dinamite",
+            "curiosidade": "É uma das ligas mais equilibradas do mundo, com o maior número de campeões diferentes no século XXI."
+        },
+        {
+            "id": "bra-b",
+            "nome": "Brasil - Série B",
+            "pais": "Brasil",
+            "reputacao_continental": 3,
+            "maior_campeao": "Coritiba / Goiás",
+            "artilheiro_historico": "Léo Gamalho",
+            "curiosidade": "A competição é famosa por sua dificuldade e equilíbrio, sendo um grande desafio para qualquer manager."
+        },
+        {
+            "id": "arg",
+            "nome": "Argentina - Liga Profesional",
+            "pais": "Argentina",
+            "reputacao_continental": 5,
+            "maior_campeao": "River Plate",
+            "artilheiro_historico": "Arsenio Erico",
+            "curiosidade": "Conhecida pela paixão de seus torcedores e por revelar alguns dos maiores talentos da história do futebol."
+        },
+        {
+            "id": "uru",
+            "nome": "Uruguai - Primera División",
+            "pais": "Uruguai",
+            "reputacao_continental": 3,
+            "maior_campeao": "Peñarol",
+            "artilheiro_historico": "Fernando Morena",
+            "curiosidade": "O Uruguai foi o anfitrião e campeão da primeira Copa do Mundo em 1930."
+        },
+        {
+            "id": "par",
+            "nome": "Paraguai - Primera División",
+            "pais": "Paraguai",
+            "reputacao_continental": 3,
+            "maior_campeao": "Olimpia",
+            "artilheiro_historico": "Juan Samudio",
+            "curiosidade": "O Olimpia é o único clube do país a ter vencido a Copa Libertadores da América."
+        },
+        {
+            "id": "chi",
+            "nome": "Chile - Primera División",
+            "pais": "Chile",
+            "reputacao_continental": 3,
+            "maior_campeao": "Colo-Colo",
+            "artilheiro_historico": "Esteban Paredes",
+            "curiosidade": "A rivalidade entre Colo-Colo e Universidad de Chile é conhecida como o 'Superclásico' do futebol chileno."
+        },
+        {
+            "id": "col",
+            "nome": "Colômbia - Categoría Primera A",
+            "pais": "Colômbia",
+            "reputacao_continental": 4,
+            "maior_campeao": "Atlético Nacional",
+            "artilheiro_historico": "Sergio Galván Rey",
+            "curiosidade": "O formato do campeonato frequentemente muda, com torneios 'Apertura' e 'Clausura' definindo campeões semestrais."
+        },
+        {
+            "id": "equ",
+            "nome": "Equador - Liga Pro",
+            "pais": "Equador",
+            "reputacao_continental": 3,
+            "maior_campeao": "Barcelona SC",
+            "artilheiro_historico": "Ermen Benítez",
+            "curiosidade": "A LDU Quito é o único time do Equador a ter vencido a Copa Libertadores e a Copa Sul-Americana."
+        },
+        {
+            "id": "per",
+            "nome": "Peru - Liga 1",
+            "pais": "Peru",
+            "reputacao_continental": 2,
+            "maior_campeao": "Universitario",
+            "artilheiro_historico": "Sergio Ibarra",
+            "curiosidade": "O clássico entre Alianza Lima e Universitario é um dos mais antigos e intensos da América do Sul."
+        },
+        {
+            "id": "bol",
+            "nome": "Bolívia - División Profesional",
+            "pais": "Bolívia",
+            "reputacao_continental": 2,
+            "maior_campeao": "Bolívar",
+            "artilheiro_historico": "Víctor Hugo Antelo",
+            "curiosidade": "Muitos estádios estão localizados em grandes altitudes, como em La Paz (3.600m), o que representa um desafio único para times visitantes."
+        },
+        {
+            "id": "ven",
+            "nome": "Venezuela - Liga FUTVE",
+            "pais": "Venezuela",
+            "reputacao_continental": 1,
+            "maior_campeao": "Caracas FC",
+            "artilheiro_historico": "Juan García",
+            "curiosidade": "Apesar de o beisebol ser o esporte mais popular do país, o futebol tem crescido muito em popularidade e qualidade."
+        }
+    ]
+,
+    "times": {
+        "bra-a": [
+            { "id": "flamengo", "nome": "Flamengo", "reputacao": 5, "orcamento": 150000000, "expectativas": "Vencer o campeonato." },
+            { "id": "palmeiras", "nome": "Palmeiras", "reputacao": 5, "orcamento": 145000000, "expectativas": "Vencer o campeonato." },
+            { "id": "atletico-mg", "nome": "Atlético-MG", "reputacao": 4, "orcamento": 90000000, "expectativas": "Classificar para a Libertadores." },
+            { "id": "fluminense", "nome": "Fluminense", "reputacao": 4, "orcamento": 88000000, "expectativas": "Classificar para a Libertadores." },
+            { "id": "gremio", "nome": "Grêmio", "reputacao": 4, "orcamento": 85000000, "expectativas": "Classificar para a Libertadores." },
+            { "id": "sao-paulo", "nome": "São Paulo", "reputacao": 4, "orcamento": 85000000, "expectativas": "Competir por vaga na Libertadores." },
+            { "id": "corinthians", "nome": "Corinthians", "reputacao": 4, "orcamento": 75000000, "expectativas": "Competir por vaga na Libertadores." },
+            { "id": "internacional", "nome": "Internacional", "reputacao": 4, "orcamento": 80000000, "expectativas": "Competir por vaga na Libertadores." },
+            { "id": "botafogo", "nome": "Botafogo", "reputacao": 4, "orcamento": 100000000, "expectativas": "Classificar para a Libertadores." },
+            { "id": "bragantino", "nome": "RB Bragantino", "reputacao": 3, "orcamento": 95000000, "expectativas": "Classificar para a Sul-Americana." },
+            { "id": "cruzeiro", "nome": "Cruzeiro", "reputacao": 3, "orcamento": 70000000, "expectativas": "Classificar para a Sul-Americana." },
+            { "id": "vasco", "nome": "Vasco da Gama", "reputacao": 3, "orcamento": 65000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "bahia", "nome": "Bahia", "reputacao": 3, "orcamento": 78000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "fortaleza", "nome": "Fortaleza", "reputacao": 3, "orcamento": 60000000, "expectativas": "Classificar para a Sul-Americana." },
+            { "id": "santos", "nome": "Santos", "reputacao": 4, "orcamento": 50000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "ceara", "nome": "Ceará", "reputacao": 2, "orcamento": 30000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "mirassol", "nome": "Mirassol", "reputacao": 2, "orcamento": 25000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "sport", "nome": "Sport Recife", "reputacao": 3, "orcamento": 35000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "vitoria", "nome": "Vitória", "reputacao": 2, "orcamento": 28000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "juventude", "nome": "Juventude", "reputacao": 2, "orcamento": 20000000, "expectativas": "Lutar contra o rebaixamento." }
+        ],
+        "bra-b": [
+            { "id": "athletico-pr", "nome": "Athletico-PR", "reputacao": 4, "orcamento": 55000000, "expectativas": "Subir para a Série A." },
+            { "id": "criciuma", "nome": "Criciúma", "reputacao": 2, "orcamento": 15000000, "expectativas": "Competir para subir." },
+            { "id": "cuiaba", "nome": "Cuiabá", "reputacao": 2, "orcamento": 18000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "atletico-go", "nome": "Atlético-GO", "reputacao": 2, "orcamento": 20000000, "expectativas": "Competir para subir." },
+            { "id": "goias", "nome": "Goiás", "reputacao": 3, "orcamento": 22000000, "expectativas": "Subir para a Série A." },
+            { "id": "coritiba", "nome": "Coritiba", "reputacao": 3, "orcamento": 25000000, "expectativas": "Subir para a Série A." },
+            { "id": "novorizontino", "nome": "Novorizontino", "reputacao": 2, "orcamento": 12000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "america-mg", "nome": "América-MG", "reputacao": 2, "orcamento": 17000000, "expectativas": "Competir para subir." },
+            { "id": "vila-nova", "nome": "Vila Nova", "reputacao": 2, "orcamento": 10000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "avai", "nome": "Avaí", "reputacao": 2, "orcamento": 13000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "amazonas", "nome": "Amazonas", "reputacao": 1, "orcamento": 8000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "paysandu", "nome": "Paysandu", "reputacao": 2, "orcamento": 9000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "botafogo-sp", "nome": "Botafogo-SP", "reputacao": 1, "orcamento": 7000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "chapecoense", "nome": "Chapecoense", "reputacao": 2, "orcamento": 11000000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "crb", "nome": "CRB", "reputacao": 2, "orcamento": 8500000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "operario-pr", "nome": "Operário-PR", "reputacao": 1, "orcamento": 6000000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "volta-redonda", "nome": "Volta Redonda", "reputacao": 1, "orcamento": 5000000, "expectativas": "Lutar contra o rebaixamento." },
+            { "id": "remo", "nome": "Remo", "reputacao": 2, "orcamento": 9500000, "expectativas": "Ficar no meio da tabela." },
+            { "id": "ferroviaria", "nome": "Ferroviária", "reputacao": 1, "orcamento": 5500000, "expectativas": "Evitar o rebaixamento." },
+            { "id": "athletic", "nome": "Athletic Club", "reputacao": 1, "orcamento": 4000000, "expectativas": "Lutar contra o rebaixamento." }
+        ],
+        "arg": [
+            { "id": "river", "nome": "River Plate", "reputacao": 5, "orcamento": 50000000, "expectativas": "Vencer o campeonato." },
+            { "id": "boca", "nome": "Boca Juniors", "reputacao": 5, "orcamento": 48000000, "expectativas": "Vencer o campeonato." },
+            { "id": "racing", "nome": "Racing Club", "reputacao": 4, "orcamento": 30000000, "expectativas": "Competir pelo título." },
+            { "id": "independiente", "nome": "Independiente", "reputacao": 4, "orcamento": 28000000, "expectativas": "Classificar para a Libertadores." }
+        ],
+        "uru": [
+            { "id": "penarol", "nome": "Peñarol", "reputacao": 4, "orcamento": 10000000, "expectativas": "Vencer o campeonato." },
+            { "id": "nacional-uru", "nome": "Nacional", "reputacao": 4, "orcamento": 9500000, "expectativas": "Vencer o campeonato." },
+            { "id": "defensor", "nome": "Defensor Sporting", "reputacao": 3, "orcamento": 5000000, "expectativas": "Competir no topo da tabela." },
+            { "id": "liverpool-uru", "nome": "Liverpool F.C.", "reputacao": 3, "orcamento": 4500000, "expectativas": "Competir no topo da tabela." }
+        ],
+        "par": [
+            { "id": "libertad", "nome": "Libertad", "reputacao": 4, "orcamento": 8000000, "expectativas": "Vencer o campeonato." },
+            { "id": "cerro", "nome": "Cerro Porteño", "reputacao": 4, "orcamento": 7500000, "expectativas": "Vencer o campeonato." },
+            { "id": "olimpia", "nome": "Olimpia", "reputacao": 4, "orcamento": 7000000, "expectativas": "Competir pelo título." },
+            { "id": "guarani-par", "nome": "Guaraní", "reputacao": 3, "orcamento": 4000000, "expectativas": "Competir por vaga continental." }
+        ],
+        "chi": [
+            { "id": "colo-colo", "nome": "Colo-Colo", "reputacao": 4, "orcamento": 9000000, "expectativas": "Vencer o campeonato." },
+            { "id": "univ-chile", "nome": "Universidad de Chile", "reputacao": 4, "orcamento": 8000000, "expectativas": "Competir pelo título." },
+            { "id": "univ-catolica", "nome": "Universidad Católica", "reputacao": 4, "orcamento": 8500000, "expectativas": "Competir pelo título." },
+            { "id": "palestino", "nome": "Palestino", "reputacao": 3, "orcamento": 4000000, "expectativas": "Competir por vaga continental." }
+        ],
+        "col": [
+            { "id": "atl-nacional", "nome": "Atlético Nacional", "reputacao": 4, "orcamento": 12000000, "expectativas": "Vencer o campeonato." },
+            { "id": "millonarios", "nome": "Millonarios", "reputacao": 4, "orcamento": 11000000, "expectativas": "Vencer o campeonato." },
+            { "id": "america-cali", "nome": "América de Cali", "reputacao": 3, "orcamento": 9000000, "expectativas": "Competir pelo título." },
+            { "id": "junior", "nome": "Junior Barranquilla", "reputacao": 3, "orcamento": 9500000, "expectativas": "Competir pelo título." }
+        ],
+        "equ": [
+            { "id": "ldu", "nome": "LDU Quito", "reputacao": 4, "orcamento": 10000000, "expectativas": "Vencer o campeonato." },
+            { "id": "ind-del-valle", "nome": "Independiente del Valle", "reputacao": 4, "orcamento": 9000000, "expectativas": "Competir pelo título." },
+            { "id": "barcelona-equ", "nome": "Barcelona SC", "reputacao": 3, "orcamento": 8000000, "expectativas": "Competir pelo título." },
+            { "id": "emelec", "nome": "Emelec", "reputacao": 3, "orcamento": 7500000, "expectativas": "Classificar para a Libertadores." }
+        ],
+        "per": [
+            { "id": "alianza", "nome": "Alianza Lima", "reputacao": 3, "orcamento": 6000000, "expectativas": "Vencer o campeonato." },
+            { "id": "universitario", "nome": "Universitario", "reputacao": 3, "orcamento": 5800000, "expectativas": "Vencer o campeonato." },
+            { "id": "sporting-cristal", "nome": "Sporting Cristal", "reputacao": 3, "orcamento": 5500000, "expectativas": "Competir pelo título." },
+            { "id": "melgar", "nome": "FBC Melgar", "reputacao": 2, "orcamento": 3000000, "expectativas": "Competir por vaga continental." }
+        ],
+        "bol": [
+            { "id": "bolivar", "nome": "Bolívar", "reputacao": 3, "orcamento": 4000000, "expectativas": "Vencer o campeonato." },
+            { "id": "the-strongest", "nome": "The Strongest", "reputacao": 3, "orcamento": 3800000, "expectativas": "Vencer o campeonato." },
+            { "id": "always-ready", "nome": "Always Ready", "reputacao": 2, "orcamento": 2500000, "expectativas": "Competir por vaga continental." },
+            { "id": "oriente", "nome": "Oriente Petrolero", "reputacao": 2, "orcamento": 2000000, "expectativas": "Competir no topo da tabela." }
+        ],
+        "ven": [
+            { "id": "deportivo-tachira", "nome": "Deportivo Táchira", "reputacao": 2, "orcamento": 2000000, "expectativas": "Vencer o campeonato." },
+            { "id": "caracas", "nome": "Caracas FC", "reputacao": 2, "orcamento": 1800000, "expectativas": "Competir pelo título." },
+            { "id": "metropolitanos", "nome": "Metropolitanos", "reputacao": 1, "orcamento": 1000000, "expectativas": "Competir no topo da tabela." },
+            { "id": "monagas", "nome": "Monagas", "reputacao": 1, "orcamento": 900000, "expectativas": "Competir por vaga continental." }
+        ]
+    }
+}

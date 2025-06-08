@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-ar">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futtycoon - Elite</title>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo:wght@300;400;600&display=swap" rel="stylesheet">
@@ -13,6 +13,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+ 
 
     <div class="background-effects">
         <div class="particles"></div>
@@ -42,21 +43,7 @@
             </footer>
         </aside>
 
-        <main class="main-content">
-            
-            <div class="manager-profile">
-                <div class="avatar">
-                    <i class='bx bxs-user'></i>
-                </div>
-                <div class="manager-info">
-                    <span class="manager-name">Seu Nome</span>
-                    <span class="club-name">Sem Clube</span>
-                </div>
-            </div>
 
-            <div class="start-prompt">
-                <h2>Pressione Enter</h2>
-            </div>
             
             <div class="game-info-footer">
                 <span id="current-date"></span>
@@ -66,10 +53,6 @@
         </main>
     </div>
 
-    <script>
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
-        document.getElementById('current-date').textContent = new Date().toLocaleDateString('pt-BR', options);
-    </script>
 
 </body>
 </html>

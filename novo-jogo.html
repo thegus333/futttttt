@@ -2,55 +2,44 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Futtycoon - Escolha seu Avatar</title>
-    <link rel="stylesheet" href="style-novojogo.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Futtycoon - Escolha seu Perfil</title>
+    <link rel="stylesheet" href="assets/css/style-novojogo.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <div class="main-container">
-        
         <header class="screen-header">
             <h1>Escolha seu Perfil de Manager</h1>
             <p>Seu estilo de gerenciamento começa com sua identidade.</p>
         </header>
 
+        <div class="manager-name-container">
+            <label for="manager-name">Nome do Manager</label>
+            <input type="text" id="manager-name" name="manager-name" placeholder="Digite seu nome aqui..." maxlength="20">
+        </div>
         <main class="avatar-selection-container">
             <div class="avatar-card" data-avatar-id="1">
-                <img src="img/avatar-1.png" alt="Avatar de um manager tático">
-                <div class="card-content">
-                    <h2>O Tático</h2>
-                    <p>Focado em formações e estratégias complexas. Bônus em Conhecimento Tático.</p>
                 </div>
+            </main>
+        <main class="avatar-selection-container">
+            <div class="avatar-card" data-avatar-id="tatico">
+                <img src="assets/img/avatar-1.png" alt="O Tático">
+                <div class="card-content"><h2>O Tático</h2><p>Focado em formações e estratégias complexas. Bônus em Conhecimento Tático.</p></div>
             </div>
-
-            <div class="avatar-card" data-avatar-id="2">
-                <img src="img/avatar-2.png" alt="Avatar de um manager motivador">
-                <div class="card-content">
-                    <h2>O Motivador</h2>
-                    <p>Mestre em gerenciar o moral da equipe e extrair o melhor de cada jogador. Bônus em Motivação.</p>
-                </div>
+            <div class="avatar-card" data-avatar-id="motivador">
+                <img src="assets/img/avatar-2.png" alt="O Motivador">
+                <div class="card-content"><h2>O Motivador</h2><p>Mestre em gerenciar o moral da equipe e extrair o melhor de cada jogador. Bônus em Motivação.</p></div>
             </div>
-
-            <div class="avatar-card" data-avatar-id="3">
-                <img src="img/avatar-3.png" alt="Avatar de um manager olheiro">
-                 <div class="card-content">
-                    <h2>O Olheiro</h2>
-                    <p>Especialista em descobrir jovens talentos e fazer bons negócios no mercado. Bônus em Trabalho com Jovens.</p>
-                </div>
+            <div class="avatar-card" data-avatar-id="olheiro">
+                <img src="assets/img/avatar-3.png" alt="O Olheiro">
+                <div class="card-content"><h2>O Olheiro</h2><p>Especialista em descobrir jovens talentos e fazer bons negócios. Bônus em Trabalho com Jovens.</p></div>
             </div>
         </main>
-        
         <footer class="screen-footer">
             <a href="index.html" class="btn btn-secondary">Voltar</a>
             <button id="btn-continue" class="btn btn-primary" disabled>Confirmar Escolha</button>
         </footer>
-
     </div>
-
-    <script src="script-novojogo.js"></script>
+    <script src="assets/js/script-novojogo.js"></script>
 </body>
 </html>

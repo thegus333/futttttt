@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutTycoon - Central</title>
+    <link rel="stylesheet" href="assets/css/style-jogo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="main-grid-layout">
+
+        <header class="main-header">
+            <div class="manager-info">
+                <span id="manager-name"></span>
+                <span id="club-name"></span>
+            </div>
+            <nav class="main-nav">
+                <a href="#" class="nav-link active">CENTRAL</a>
+                <a href="#" class="nav-link">ELENCO</a>
+                <a href="#" class="nav-link">TÁTICAS</a>
+                <a href="#" class="nav-link">TRANSFERÊNCIAS</a>
+                <a href="#" class="nav-link">FINANÇAS</a>
+            </nav>
+            <div class="header-right">
+                <span id="current-date"></span>
+                <a href="index.html" class="btn-quit" title="Sair para o Menu Principal"><i class='bx bx-exit'></i></a>
+            </div>
+        </header>
+
+        <section class="action-panel">
+            <div class="next-match-card">
+                <div class="match-teams">
+                    <span id="next-match-home"></span>
+                    <span class="vs">VS</span>
+                    <span id="next-match-away"></span>
+                </div>
+                <div class="match-details">
+                    <span id="next-match-league"></span>
+                    <span id="next-match-date"></span>
+                </div>
+                <div class="match-buttons">
+                    <a href="pre-jogo.html" class="btn-main-action"><i class='bx bx-game'></i> Gerenciar Partida</a>
+                    <button id="sim-round-btn" class="btn-secondary-action"><i class='bx bx-fast-forward'></i> Simular Rodada</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="dashboard-widgets">
+            <div class="widget card-league">
+                <h4>CLASSIFICAÇÃO</h4>
+                <table id="mini-league-table" class="mini-table"></table>
+            </div>
+            <div class="widget card-squad-status">
+                <h4>STATUS DO ELENCO</h4>
+                <div class="status-bars">
+                    <div class="status-item"><span>Moral</span><div class="bar-container"><div id="morale-bar" class="bar"></div></div></div>
+                    <div class="status-item"><span>Físico</span><div class="bar-container"><div id="fitness-bar" class="bar"></div></div></div>
+                </div>
+            </div>
+            <div class="widget card-finances">
+                <h4>BALANÇO FINANCEIRO</h4>
+                <div class="finance-info">
+                    <span>Saldo do Clube</span>
+                    <strong id="finance-balance"></strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="feed-panel">
+            <div class="feed-header">
+                <h3>ÚLTIMAS ATUALIZAÇÕES</h3>
+            </div>
+            <ul id="feed-list" class="feed-list">
+                </ul>
+        </section>
+
+    </div>
+
+    <script src="assets/js/dados.js"></script>
+    <script src="assets/js/engine.js"></script>
+    <script src="assets/js/script-jogo.js"></script>
+</body>
+</html>

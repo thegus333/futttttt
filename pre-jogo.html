@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>FutTycoon - Dia do Jogo</title>
+    <link rel="stylesheet" href="assets/css/style-jogo.css">
+    </head>
+<body>
+    <div class="main-container" style="padding: 40px;">
+        <header class="page-header">
+            <a href="jogo.html" class="btn-voltar">&larr; Voltar para a Central</a>
+            <div class="header-title">
+                <h1 id="match-title"></h1>
+                <p id="match-league"></p>
+            </div>
+        </header>
+        <main>
+            <h2>Gerenciamento da Partida</h2>
+            <p>Aqui você poderá escalar seu time, definir a formação tática e a postura da equipe antes de iniciar a simulação visual da partida.</p>
+            <button style="margin-top: 20px;">Iniciar Partida (Visual)</button>
+        </main>
+    </div>
+    <script src="assets/js/dados.js"></script>
+    <script src="assets/js/save_load.js"></script> <script>
+        // Script simples para popular a tela de pré-jogo
+        document.addEventListener('DOMContentLoaded', () => {
+            // Este script leria o GameState para saber qual é a próxima partida
+            // e preencheria as informações na tela.
+            if(GameState && GameState.clube) {
+                document.getElementById('match-title').textContent = `Preparação para ${GameState.clube.nome}`;
+                document.getElementById('match-league').textContent = GameState.liga.nome;
+            }
+        });
+    </script>
+</body>
+</html>

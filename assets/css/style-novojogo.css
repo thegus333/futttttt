@@ -1,0 +1,176 @@
+/* style-novojogo.css */
+:root {
+    --cor-fundo: #101015;
+    --cor-card: #1a1a23;
+    --cor-card-borda: #2a2a35;
+    --cor-destaque: #8c3eee;
+    --cor-destaque-hover: #a05dff;
+    --cor-texto-principal: #f0f0f5;
+    --cor-texto-secundario: #a0a0b0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-principal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.main-container {
+    width: 1000px;
+    max-width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.screen-header {
+    text-align: center;
+}
+
+.screen-header h1 {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+
+.screen-header p {
+    font-size: 18px;
+    color: var(--cor-texto-secundario);
+}
+
+.avatar-selection-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.avatar-card {
+    background-color: var(--cor-card);
+    width: 280px;
+    border-radius: 12px;
+    border: 2px solid var(--cor-card-borda);
+    cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.avatar-card img {
+    width: 100%;
+    display: block;
+    background-color: #252530;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.card-content h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.card-content p {
+    font-size: 15px;
+    color: var(--cor-texto-secundario);
+    line-height: 1.5;
+}
+
+.avatar-card.selected {
+    border-color: var(--cor-destaque);
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 10px 30px rgba(140, 62, 238, 0.3);
+}
+
+.screen-footer {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--cor-destaque);
+    color: white;
+}
+
+.btn-primary:hover:not([disabled]) {
+    background-color: var(--cor-destaque-hover);
+}
+
+.btn-primary:disabled {
+    background-color: #555;
+    color: #888;
+    cursor: not-allowed;
+    border-color: #555;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--cor-texto-secundario);
+    border-color: var(--cor-texto-secundario);
+}
+
+.btn-secondary:hover {
+    background-color: var(--cor-texto-secundario);
+    color: var(--cor-fundo);
+}
+/* style-novojogo.css */
+
+/* ... (seu CSS existente) ... */
+
+/* ESTILOS PARA O CAMPO DE NOME DO MANAGER */
+.manager-name-container {
+    width: 100%;
+    max-width: 400px; /* Define uma largura máxima para o input */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px; /* Espaçamento antes dos cards */
+}
+
+.manager-name-container label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-texto-secundario);
+}
+
+.manager-name-container input {
+    background-color: var(--cor-card);
+    border: 2px solid var(--cor-card-borda);
+    color: var(--cor-texto-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.manager-name-container input::placeholder {
+    color: #666;
+}
+
+.manager-name-container input:focus {
+    outline: none;
+    border-color: var(--cor-destaque);
+    box-shadow: 0 0 10px rgba(140, 62, 238, 0.3);
+}
